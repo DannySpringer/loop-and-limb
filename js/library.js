@@ -1,7 +1,7 @@
 import { loadData, esc, thumbImg, inProgram, toggleInProgram, addButtonLabel, toast } from './common.js';
 
 const REGIONS = ['knee', 'hip', 'shoulder', 'back', 'ankle', 'neck'];
-const POSITIONS = ['standing', 'sitting', 'lying'];
+const POSITIONS = ['standing', 'sitting', 'kneeling', 'lying'];
 
 const form = document.getElementById('filters');
 const grid = document.getElementById('grid');

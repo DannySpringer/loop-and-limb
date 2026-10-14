@@ -262,6 +262,305 @@
       "target": "0.00m 0.96m 0.09m",
       "radius": 3.26,
       "thumb": "assets/thumbs/shoulder_flexion.webp"
+    },
+    {
+      "id": "prone_hip_extension",
+      "name": "Prone Hip Extension",
+      "regions": [
+        "hip",
+        "back"
+      ],
+      "position": "lying",
+      "camera": "side",
+      "summary": "Strengthens the buttock muscles that extend the hip, with the trunk supported by the floor.",
+      "dosage": {
+        "sets": 3,
+        "reps": 10,
+        "hold": "—",
+        "frequency": "Once a day"
+      },
+      "steps": [
+        "Lie face down on a mat with your legs straight. Rest your forehead on your folded hands.",
+        "Gently tighten your stomach and buttock muscles.",
+        "Keeping your knee straight, slowly raise one leg a few inches off the floor.",
+        "Lift only as high as you can without your lower back arching.",
+        "Slowly lower the leg back down. Complete the set, then switch legs."
+      ],
+      "do": [
+        "Keep your knee straight and your toes pointing toward the floor.",
+        "Keep both hips pressed into the mat.",
+        "Move slowly and with control."
+      ],
+      "avoid": [
+        "Arching or twisting your lower back to lift higher.",
+        "Bending the knee.",
+        "Holding your breath."
+      ],
+      "clip": "prone_hip_extension",
+      "target": "-0.00m 0.22m -0.05m",
+      "radius": 3.27,
+      "thumb": "assets/thumbs/prone_hip_extension.webp"
+    },
+    {
+      "id": "prone_press_up",
+      "name": "Prone Press-Up on Elbows",
+      "regions": [
+        "back"
+      ],
+      "position": "lying",
+      "camera": "side",
+      "summary": "Gently moves the lower back into extension by propping the upper body up on the forearms.",
+      "dosage": {
+        "sets": 3,
+        "reps": 10,
+        "hold": "—",
+        "frequency": "Once a day"
+      },
+      "steps": [
+        "Lie face down with your forearms on the floor and your elbows close to your sides.",
+        "Relax your buttocks, legs and lower back.",
+        "Slowly push through your forearms to lift your chest, bringing your elbows under your shoulders.",
+        "Pause briefly in the propped position, letting your lower back sag and relax.",
+        "Slowly lower back down to the floor."
+      ],
+      "do": [
+        "Keep your hips and pelvis relaxed on the floor.",
+        "Keep your shoulders down, away from your ears.",
+        "Breathe out as you rise."
+      ],
+      "avoid": [
+        "Tensing your buttocks or lifting your hips.",
+        "Pushing into sharp or spreading pain.",
+        "Craning your neck upward."
+      ],
+      "clip": "prone_press_up",
+      "target": "0.00m 0.38m -0.05m",
+      "radius": 3.1,
+      "thumb": "assets/thumbs/prone_press_up.webp"
+    },
+    {
+      "id": "childs_pose",
+      "name": "Child's Pose",
+      "regions": [
+        "back",
+        "hip"
+      ],
+      "position": "kneeling",
+      "camera": "side",
+      "summary": "A restful stretch for the lower back and hips.",
+      "dosage": {
+        "sets": 3,
+        "reps": 1,
+        "hold": "20–30 seconds",
+        "frequency": "Once a day"
+      },
+      "steps": [
+        "Kneel on a padded surface, with your knees wide and your big toes touching. A folded blanket under the knees helps.",
+        "If the knees feel tight, place a second folded blanket between your calves and thighs.",
+        "Sit your hips back toward your heels.",
+        "Fold forward and rest your forehead on the floor, reaching your arms forward along the mat.",
+        "Breathe slowly and hold for 20–30 seconds, then walk your hands back to sit up."
+      ],
+      "do": [
+        "Let your back round gently and relax.",
+        "Use a block or pillow under your forehead if it doesn't reach the floor.",
+        "Breathe deeply into your back."
+      ],
+      "avoid": [
+        "Forcing your hips down onto your heels.",
+        "Holding a position that causes knee pain.",
+        "Holding your breath."
+      ],
+      "clip": "childs_pose",
+      "target": "0.00m 0.17m 0.35m",
+      "radius": 2.2,
+      "thumb": "assets/thumbs/childs_pose.webp"
+    },
+    {
+      "id": "childs_pose_side_bend",
+      "name": "Child's Pose Side Bend",
+      "regions": [
+        "back"
+      ],
+      "position": "kneeling",
+      "camera": "top",
+      "summary": "Adds a side stretch to child's pose, lengthening the muscles along the side of the trunk.",
+      "dosage": {
+        "sets": 3,
+        "reps": 1,
+        "hold": "20–30 seconds",
+        "frequency": "Once a day"
+      },
+      "steps": [
+        "Kneel with your knees wider than your hips and your big toes touching.",
+        "Fold forward into child's pose, with your arms reaching forward and your forehead on the floor.",
+        "Take a breath, then walk both hands over to one side as far as is comfortable.",
+        "Hold for 20–30 seconds, feeling the stretch along the opposite side of your trunk.",
+        "Walk your hands back to the centre, then repeat to the other side."
+      ],
+      "do": [
+        "Keep your hips sitting back toward your heels.",
+        "Move your hands in small steps.",
+        "Breathe into the side that is stretching."
+      ],
+      "avoid": [
+        "Letting your hips lift or slide sideways.",
+        "Bouncing into the stretch.",
+        "Pushing into pain."
+      ],
+      "clip": "childs_pose_side_bend",
+      "target": "-0.24m 0.18m 0.35m",
+      "radius": 2.54,
+      "thumb": "assets/thumbs/childs_pose_side_bend.webp"
+    },
+    {
+      "id": "supine_piriformis_stretch",
+      "name": "Supine Piriformis Stretch",
+      "regions": [
+        "hip"
+      ],
+      "position": "lying",
+      "camera": "top",
+      "summary": "Stretches the deep buttock muscles (piriformis) with the other foot resting on the floor.",
+      "dosage": {
+        "sets": 3,
+        "reps": 1,
+        "hold": "20–30 seconds",
+        "frequency": "Once a day"
+      },
+      "steps": [
+        "Lie on your back with both knees bent and your feet flat on the floor.",
+        "Cross one leg over so its ankle rests on the opposite knee.",
+        "Hold the crossed leg just below its knee.",
+        "Gently draw that knee toward your opposite shoulder until you feel a stretch in the buttock.",
+        "Hold for 20–30 seconds, relax, then switch sides."
+      ],
+      "do": [
+        "Keep your head and shoulders relaxed on the floor.",
+        "Pull gently and steadily.",
+        "Keep your lower back resting on the floor."
+      ],
+      "avoid": [
+        "Pulling hard enough to cause pain in the knee or hip.",
+        "Lifting your head or shoulders.",
+        "Bouncing."
+      ],
+      "clip": "supine_piriformis_stretch",
+      "target": "0.00m 0.35m -0.05m",
+      "radius": 2.69,
+      "thumb": "assets/thumbs/supine_piriformis_stretch.webp"
+    },
+    {
+      "id": "cervical_extension",
+      "name": "Cervical Extension",
+      "regions": [
+        "neck"
+      ],
+      "position": "sitting",
+      "camera": "side",
+      "summary": "Active range of motion for the neck, bending backward after first setting a chin tuck.",
+      "dosage": {
+        "sets": 3,
+        "reps": 10,
+        "hold": "—",
+        "frequency": "Once a day"
+      },
+      "steps": [
+        "Sit upright in a chair. If your clinician gave you a strap or towel, hold its ends with it looped around the base of your neck.",
+        "Gently tuck your chin straight back.",
+        "Slowly tip your head back to look up, as far as is comfortable.",
+        "Bring your head back up to the starting position.",
+        "Repeat slowly."
+      ],
+      "do": [
+        "Move your head straight back and forth, with no turning to either side.",
+        "Move slowly through a comfortable range.",
+        "Keep your shoulders relaxed."
+      ],
+      "avoid": [
+        "Rotating or tilting your head to one side.",
+        "Moving into dizziness, tingling or pain.",
+        "Jerking the movement."
+      ],
+      "clip": "cervical_extension",
+      "target": "0.00m 0.63m 0.23m",
+      "radius": 2.47,
+      "thumb": "assets/thumbs/cervical_extension.webp"
+    },
+    {
+      "id": "seated_trunk_extension",
+      "name": "Seated Thoracic Lumbar Extension",
+      "regions": [
+        "back"
+      ],
+      "position": "sitting",
+      "camera": "side",
+      "summary": "Gently arches the upper and lower back to improve extension mobility.",
+      "dosage": {
+        "sets": 3,
+        "reps": 10,
+        "hold": "—",
+        "frequency": "Once a day"
+      },
+      "steps": [
+        "Sit upright toward the front of a sturdy chair with your feet flat.",
+        "Cross your arms over your chest, with your hands resting on your shoulders.",
+        "Slowly arch your trunk backward, lifting your chest toward the ceiling.",
+        "Hold briefly at the end of the movement.",
+        "Return to upright and repeat."
+      ],
+      "do": [
+        "Move slowly and with control.",
+        "Lead with your chest.",
+        "Keep your feet planted."
+      ],
+      "avoid": [
+        "Moving into pain.",
+        "Throwing your head back.",
+        "Leaning so far that you lose balance."
+      ],
+      "clip": "seated_trunk_extension",
+      "target": "0.00m 0.62m 0.28m",
+      "radius": 2.61,
+      "thumb": "assets/thumbs/seated_trunk_extension.webp"
+    },
+    {
+      "id": "side_lying_open_book",
+      "name": "Side-Lying Open Book",
+      "regions": [
+        "back",
+        "shoulder"
+      ],
+      "position": "lying",
+      "camera": "top",
+      "summary": "A rotation stretch for the upper back and chest, keeping the hips still.",
+      "dosage": {
+        "sets": 3,
+        "reps": 10,
+        "hold": "—",
+        "frequency": "Once a day"
+      },
+      "steps": [
+        "Lie on your side with your hips and knees bent and your knees together. A pillow under your head helps.",
+        "Stretch both arms straight out in front of you on the floor, palms together.",
+        "Slide your top hand forward and back over the bottom hand a few times to loosen up.",
+        "Then lift your top arm up and over, rotating your upper back to reach toward the floor behind you.",
+        "Pause, then bring the arm back to the starting position."
+      ],
+      "do": [
+        "Keep your knees together and your hips facing forward.",
+        "Let your eyes and head follow your moving hand.",
+        "Breathe out as you open."
+      ],
+      "avoid": [
+        "Letting your knees or hips roll backward.",
+        "Forcing the arm to the floor.",
+        "Moving into shoulder pain."
+      ],
+      "clip": "side_lying_open_book",
+      "target": "-0.17m 0.46m -0.03m",
+      "radius": 3.3,
+      "thumb": "assets/thumbs/side_lying_open_book.webp"
     }
   ]
 }
