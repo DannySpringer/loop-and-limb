@@ -41,6 +41,7 @@ if (!ex) {
             ${BUTTONS.map((k) => `<button class="btn" type="button" data-cam="${k}" disabled>${k[0].toUpperCase() + k.slice(1)}</button>`).join('')}
           </div>
         </div>
+        <p class="legend"><span class="swatch right"></span>Right side <span class="swatch left"></span>Left side</p>
         <p class="lede" style="font-size:.9rem">Drag to rotate · pinch or scroll to zoom.</p>
       </div>
       <div>

@@ -138,6 +138,11 @@ ol.steps { padding-left: 1.4em; } ol.steps li { margin-bottom: 8px; }
 .detail-layout { display: grid; gap: 8px; }
 @media (min-width: 900px) { .detail-layout { grid-template-columns: 1.1fr 1fr; gap: 32px; align-items: start; } .detail-layout .viewer-col { position: sticky; top: 76px; } }
 
+.legend { display: flex; align-items: center; gap: 6px; font-size: .9rem; font-weight: 600; margin: 0 0 4px; }
+.swatch { width: 14px; height: 14px; border-radius: 4px; display: inline-block; }
+.swatch.left { background: #3e88c9; margin-left: 10px; }
+.swatch.right { background: #e5783a; }
+
 /* Program */
 .program-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
 .program-item { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px; display: grid; grid-template-columns: 72px 1fr; gap: 12px; }

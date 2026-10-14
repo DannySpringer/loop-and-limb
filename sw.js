@@ -1,7 +1,7 @@
 // Offline support: precache the app shell, then cache everything else
 // (models, thumbnails, the model-viewer library) the first time it's fetched.
 // Bump VERSION when you deploy changes to force a refresh.
-const VERSION = 'v20261013202408';
+const VERSION = 'v20261013212657';
 const SHELL = [
   './', 'index.html', 'exercise.html', 'program.html',
   'css/style.css', 'js/common.js', 'js/library.js', 'js/detail.js', 'js/program.js',
