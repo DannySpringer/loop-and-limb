@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loop & Limb · Exercise library</title>
+<meta name="description" content="Home exercise library with interactive 3D demonstrations.">
+<meta name="theme-color" content="#c2502b">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./">Loop <span>&amp;</span> Limb</a>
+    <nav aria-label="Main">
+      <a href="./" aria-current="page">Library</a>
+      <a href="program.html">My program <span class="count" data-program-count hidden></span></a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap">
+  <h1>Exercise library</h1>
+  <p class="lede">Tap an exercise to watch it in 3D, then add it to your program.</p>
+  <form id="filters" class="filters" role="search">
+    <div>
+      <label for="q" class="lede" style="display:block;margin:0 0 4px;font-size:.9rem">Search</label>
+      <input id="q" name="q" type="search" placeholder="e.g. bridge, knee" autocomplete="off">
+    </div>
+    <div style="display:grid;gap:10px">
+      <fieldset class="chips" data-regions><legend>Body region</legend></fieldset>
+      <fieldset class="chips" data-positions><legend>Position</legend></fieldset>
+    </div>
+  </form>
+  <p id="result-status" class="lede" aria-live="polite"></p>
+  <ul id="grid" class="grid"></ul>
+  <p id="empty" class="empty" hidden>No exercises match those filters.</p>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>For demonstration only, not medical advice. Follow your clinician's instructions.</strong></p>
+    <p>3D figures made in Blender. See <a href="CREDITS.md">credits</a> for open-source assets.</p>
+  </div>
+</footer>
+<script type="module" src="js/library.js"></script>
+</body>
+</html>

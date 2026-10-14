@@ -1,0 +1,267 @@
+{
+  "model": "assets/models/character.glb",
+  "exercises": [
+    {
+      "id": "glute_bridge",
+      "name": "Glute Bridge",
+      "clip": "glute_bridge",
+      "thumb": "assets/thumbs/glute_bridge.webp",
+      "regions": [
+        "hip",
+        "back",
+        "knee"
+      ],
+      "position": "lying",
+      "camera": "side",
+      "summary": "Strengthens the buttocks and the back of the thighs while keeping the lower back supported.",
+      "dosage": {
+        "sets": 2,
+        "reps": 10,
+        "hold": "3 seconds",
+        "frequency": "Once a day"
+      },
+      "steps": [
+        "Lie on your back with both knees bent and feet flat on the floor, about hip-width apart.",
+        "Rest your arms by your sides, palms down. Gently tighten your stomach muscles.",
+        "Squeeze your buttocks and lift your hips until your body forms a straight line from shoulders to knees.",
+        "Hold at the top for 3 seconds, breathing normally.",
+        "Slowly lower your hips back to the floor, one vertebra at a time."
+      ],
+      "do": [
+        "Push evenly through both heels.",
+        "Keep your knees pointing straight ahead, in line with your hips.",
+        "Move slowly and with control, especially on the way down."
+      ],
+      "avoid": [
+        "Arching your lower back at the top of the lift.",
+        "Holding your breath.",
+        "Letting your knees fall in toward each other."
+      ],
+      "target": "0.00m 0.27m -0.04m",
+      "radius": 2.57
+    },
+    {
+      "id": "clamshell",
+      "name": "Clamshell",
+      "clip": "clamshell",
+      "thumb": "assets/thumbs/clamshell.webp",
+      "regions": [
+        "hip"
+      ],
+      "position": "lying",
+      "camera": "above",
+      "summary": "Targets the side hip muscles that help keep the pelvis and knee stable when walking.",
+      "dosage": {
+        "sets": 2,
+        "reps": 12,
+        "hold": "2 seconds",
+        "frequency": "Once a day, each side"
+      },
+      "steps": [
+        "Lie on your side with your hips and knees bent to about 45 degrees and your heels in line with your buttocks.",
+        "Rest your head on your lower arm or a pillow. Place your top hand on your top hip.",
+        "Keeping your feet together, lift your top knee as far as you can without rolling your pelvis backward.",
+        "Hold for 2 seconds at the top.",
+        "Slowly lower your knee back down. Repeat, then switch sides."
+      ],
+      "do": [
+        "Keep your hips stacked one on top of the other.",
+        "Keep your feet touching throughout the movement.",
+        "Feel the work in the side of your hip, not your lower back."
+      ],
+      "avoid": [
+        "Rolling your top hip backward to lift the knee higher.",
+        "Rushing through repetitions.",
+        "Lifting your feet apart."
+      ],
+      "target": "0.10m 0.27m -0.13m",
+      "radius": 3.22
+    },
+    {
+      "id": "seated_knee_extension",
+      "name": "Seated Knee Extension",
+      "clip": "seated_knee_extension",
+      "thumb": "assets/thumbs/seated_knee_extension.webp",
+      "regions": [
+        "knee"
+      ],
+      "position": "sitting",
+      "camera": "side",
+      "summary": "Strengthens the muscles at the front of the thigh (quadriceps) that straighten and support the knee.",
+      "dosage": {
+        "sets": 3,
+        "reps": 10,
+        "hold": "5 seconds",
+        "frequency": "Twice a day"
+      },
+      "steps": [
+        "Sit tall in a sturdy chair with your back supported and both feet flat on the floor.",
+        "Hold the sides of the seat lightly for balance.",
+        "Slowly straighten one knee, lifting your foot until your leg is as straight as is comfortable.",
+        "Tighten the muscle on the top of your thigh and hold for 5 seconds.",
+        "Slowly lower your foot back to the floor. Complete all repetitions, then switch legs."
+      ],
+      "do": [
+        "Point your toes toward the ceiling at the top.",
+        "Keep your thigh resting on the chair.",
+        "Sit upright with your shoulders relaxed."
+      ],
+      "avoid": [
+        "Swinging or kicking your leg up quickly.",
+        "Leaning back in the chair to lift higher.",
+        "Locking your knee forcefully at the top."
+      ],
+      "target": "0.00m 0.63m 0.37m",
+      "radius": 2.72
+    },
+    {
+      "id": "heel_slide",
+      "name": "Heel Slide",
+      "regions": [
+        "knee",
+        "hip"
+      ],
+      "position": "lying",
+      "camera": "side",
+      "summary": "Gently restores knee and hip bending range, often used early in knee rehabilitation.",
+      "dosage": {
+        "sets": 2,
+        "reps": 10,
+        "hold": "2 seconds",
+        "frequency": "Twice a day"
+      },
+      "steps": [
+        "Lie on your back on a firm surface with both legs straight.",
+        "Rest your arms by your sides and relax your shoulders.",
+        "Slowly slide the heel of one leg toward your buttocks, bending the knee as far as is comfortable.",
+        "Hold for 2 seconds at the end of the movement.",
+        "Slowly slide the heel back down until the leg is straight again. Complete all repetitions, then switch legs."
+      ],
+      "do": [
+        "Keep your heel in contact with the surface the whole time.",
+        "Move slowly and smoothly.",
+        "Wear a sock or place a towel under your heel so it glides easily."
+      ],
+      "avoid": [
+        "Lifting your foot off the surface.",
+        "Forcing the knee into a painful bend.",
+        "Letting the knee drop out to the side."
+      ],
+      "clip": "heel_slide",
+      "target": "0.00m 0.24m 0.06m",
+      "radius": 2.88,
+      "thumb": "assets/thumbs/heel_slide.webp"
+    },
+    {
+      "id": "standing_calf_raise",
+      "name": "Standing Calf Raise",
+      "regions": [
+        "ankle"
+      ],
+      "position": "standing",
+      "camera": "side",
+      "summary": "Strengthens the calf muscles and supports ankle stability and balance.",
+      "dosage": {
+        "sets": 2,
+        "reps": 15,
+        "hold": "1 second",
+        "frequency": "Once a day"
+      },
+      "steps": [
+        "Stand tall with your feet hip-width apart, close to a counter or sturdy chair you can hold for balance.",
+        "Keep your knees straight but not locked.",
+        "Slowly rise up onto the balls of both feet, lifting your heels as high as you comfortably can.",
+        "Hold at the top for 1 second.",
+        "Slowly lower your heels back to the floor."
+      ],
+      "do": [
+        "Keep your weight centred over your big and second toes.",
+        "Lower more slowly than you rise.",
+        "Hold a support lightly if your balance is unsteady."
+      ],
+      "avoid": [
+        "Letting your ankles roll outward.",
+        "Bouncing or rushing the movement.",
+        "Leaning forward at the hips."
+      ],
+      "clip": "standing_calf_raise",
+      "target": "0.00m 0.86m 0.03m",
+      "radius": 2.87,
+      "thumb": "assets/thumbs/standing_calf_raise.webp"
+    },
+    {
+      "id": "chin_tuck",
+      "name": "Chin Tuck",
+      "regions": [
+        "neck"
+      ],
+      "position": "sitting",
+      "camera": "side",
+      "summary": "Strengthens the deep neck muscles and encourages good head and neck posture.",
+      "dosage": {
+        "sets": 1,
+        "reps": 10,
+        "hold": "5 seconds",
+        "frequency": "Several times a day"
+      },
+      "steps": [
+        "Sit tall in a chair with your feet flat and your hands resting on your thighs.",
+        "Look straight ahead, keeping your eyes level.",
+        "Gently glide your head straight back, as if making a double chin.",
+        "Hold for 5 seconds. You should feel a gentle stretch at the base of your skull.",
+        "Relax back to the starting position."
+      ],
+      "do": [
+        "Keep your eyes level, as if your head is sliding on a shelf.",
+        "Keep the movement small and gentle.",
+        "Breathe normally throughout."
+      ],
+      "avoid": [
+        "Tipping your head up or nodding down.",
+        "Pushing into pain or dizziness.",
+        "Shrugging your shoulders."
+      ],
+      "clip": "chin_tuck",
+      "target": "0.00m 0.63m 0.23m",
+      "radius": 2.47,
+      "thumb": "assets/thumbs/chin_tuck.webp"
+    },
+    {
+      "id": "shoulder_flexion",
+      "name": "Standing Shoulder Flexion",
+      "regions": [
+        "shoulder"
+      ],
+      "position": "standing",
+      "camera": "side",
+      "summary": "Maintains and improves the shoulder's ability to raise the arm overhead.",
+      "dosage": {
+        "sets": 2,
+        "reps": 10,
+        "hold": "2 seconds",
+        "frequency": "Once a day"
+      },
+      "steps": [
+        "Stand tall with your arms relaxed at your sides, thumbs pointing forward.",
+        "Gently tighten your stomach muscles to keep your back steady.",
+        "Keeping your elbows straight, slowly raise both arms forward and up as high as is comfortable.",
+        "Hold for 2 seconds at the top.",
+        "Slowly lower your arms back to your sides."
+      ],
+      "do": [
+        "Raise your arms only as high as is comfortable.",
+        "Keep your shoulders down and away from your ears.",
+        "Move smoothly in both directions."
+      ],
+      "avoid": [
+        "Arching your lower back to get your arms higher.",
+        "Shrugging your shoulders.",
+        "Swinging your arms with momentum."
+      ],
+      "clip": "shoulder_flexion",
+      "target": "0.00m 0.96m 0.09m",
+      "radius": 3.26,
+      "thumb": "assets/thumbs/shoulder_flexion.webp"
+    }
+  ]
+}

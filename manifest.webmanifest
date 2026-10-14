@@ -1,0 +1,13 @@
+{
+  "name": "Loop & Limb",
+  "short_name": "Loop & Limb",
+  "description": "Home exercise programs with interactive 3D demonstrations.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#c2502b",
+  "icons": [
+    { "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
